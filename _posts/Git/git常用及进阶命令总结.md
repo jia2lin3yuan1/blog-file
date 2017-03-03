@@ -188,6 +188,7 @@ git branch --set-upstream develop origin/develop
 echo "# hexo-theme" >> README.md
 git init
 git add README.md
+echo '*.pyc'>>.gitignore # edit gitignore to ignore some files
 git commit -m "first commit"
 git remote add origin git@github.com:huaqianlee/hexo-theme.git
 git push -u origin master
